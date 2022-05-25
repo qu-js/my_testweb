@@ -59,18 +59,10 @@ ul {
   }
   
 
-  /*section::after {
-    content: "";
-    display: table;
-    clear: both;
-  }
-  */
-
-
   nav {
     float: left;
     width: 40%;
-    background: #ccc;
+    /* background: #ccc; */
     text-align: center;
     /* padding: 20px; */
     object-fit: cover;
