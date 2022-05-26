@@ -1,13 +1,17 @@
 body {
-    /* background-color: powderblue; */
     background-image:url("");
   }
+
+  
 .image1{
     display:block;
-    margin-left:auto;
-    margin-right:auto;
-    width:40%;
+    max-width: 700px;
+    max-height: 500px;
+    width:100%;
+    height: 150%;
+   
 }
+
 
 
 .custmize_size{
@@ -20,6 +24,35 @@ body {
 }
 
 
+.main_frame {
+  float: left;
+  width: 42%;
+  border-style: solid;
+  border-color: green; 
+  margin-right: 15px;
+  margin-left: 80px;
+  margin-bottom: 105px;
+}
+
+
+.left_side{
+  float:left; 
+  height:200%;
+  width:45%;
+}
+
+
+
+
+
+
+/*메인 페이지 위의 nav바*/
+
+nav {
+  float: left;
+  width: 45%;
+  text-align: center;
+}
 
 
 ul {
@@ -50,8 +83,11 @@ ul {
 
 
 
+
+
+
   header{
-    background-color: rgb(60, 184, 49);
+    background-color: green;
     padding: 20px;
     text-align: center;
     font-size: 25px;
@@ -59,17 +95,10 @@ ul {
   }
   
 
-  nav {
-    float: left;
-    width: 45%;
-    /* background: #ccc; */
-    text-align: center;
-    /* padding: 20px; */
-  }
 
-
+/*main frame 구성 요소*/
   footer {
-    background-color: rgb(47, 141, 68);
+    background-color: green;
     padding: 10px;
     text-align: center;
     color: white;
@@ -77,12 +106,40 @@ ul {
 
   article {
     float: left;
-    /* padding: 20px; */
+    padding-left: 15px;
     width: 50%;
-    /*background-color: #57d286;*/
+    max-height:400px;
   }
   
-
   summary{
     font-size: 10px;
+  }
+
+
+
+
+
+
+
+
+/* others */
+  .fixed_link{
+    position: fixed;
+    bottom:0px;
+    right: 40px;
+  }
+
+  .fixed_bar{
+    position: fixed;
+    height: 50px;
+    width: 100%;
+    bottom:0px;
+    background-color: green;
+  }
+
+  .fixed_bar_text{
+    position: fixed;
+    font-size: 20px;
+    bottom:-6px;
+    right: 37%;
   }
