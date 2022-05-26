@@ -12,9 +12,15 @@ body {
    
 }
 
+.video1{
+    max-width: 700px;
+    max-height: 500px;
+    width:700px;
+    height: 500px;
+}
 
 
-.custmize_size{
+.customize_size{
   overflow: auto;
 }
 
@@ -84,7 +90,7 @@ ul {
 
 
 
-
+/*main frame 구성 요소*/
 
   header{
     background-color: green;
@@ -94,9 +100,6 @@ ul {
     color: white;
   }
   
-
-
-/*main frame 구성 요소*/
   footer {
     background-color: green;
     padding: 10px;
@@ -105,7 +108,7 @@ ul {
   }
 
   article {
-    float: left;
+    float: right;
     padding-left: 15px;
     width: 50%;
     max-height:400px;
